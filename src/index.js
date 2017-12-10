@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Administration from './ProductAdministrationComponent/ProductAdministrationComponent';
+import NewProduct from './Product/Product';
 
- var product ={
+ /* var product ={
   title: '',
   imageURL: '',
   description: '',
   price: '',
   quantity: ''
-} 
+}   */
 
 ReactDOM.render(
-   <Administration administration={product}/>,
+   <Administration admin={NewProduct}/>,
   document.getElementById('root')
 );
